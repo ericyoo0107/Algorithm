@@ -17,6 +17,15 @@
 
 ### 구현 방식
 1. 재귀 함수로 구현 (코테에선 이걸 주로 사용)
+```java
+private static void DFS(int v) {
+    if(visited[v]) return;
+    visited[v] = true;
+    for(int i : graph[v]){
+        if(!visited[i]) DFS(i);
+    }
+}
+```
 2. 스택 자료구조 이용
 
 ### 구현
