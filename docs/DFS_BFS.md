@@ -71,7 +71,7 @@ private static void DFS(int v) {
 ---
 1. 주로 큐를 사용
 ```java
-static String bfs(int start, int[][] graph, boolean[] visited) {
+static void bfs(int start, int[][] graph, boolean[] visited) {
         // BFS에 사용할 큐를 생성해줍니다.
         Queue<Integer> q = new LinkedList<Integer>();
 

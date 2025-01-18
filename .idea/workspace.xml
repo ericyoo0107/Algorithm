@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/DFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DFS_BFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/DFS_BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DFS_BFS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +89,10 @@
       <workItem from="1736869767550" duration="86000" />
       <workItem from="1736922220585" duration="15759000" />
       <workItem from="1737000734292" duration="639000" />
-      <workItem from="1737007668710" duration="2981000" />
+      <workItem from="1737007668710" duration="3383000" />
+      <workItem from="1737114890016" duration="597000" />
+      <workItem from="1737125624913" duration="192000" />
+      <workItem from="1737205004625" duration="724000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -131,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736948761694</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[개념] : BFS 공부 내용 추가">
+      <option name="closed" value="true" />
+      <created>1737014512523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737014512523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,7 +164,8 @@
     <MESSAGE value="[개념] : DFS 공부 내용 추가" />
     <MESSAGE value="[개념] : Java PS용 문법 공부 내용 추가" />
     <MESSAGE value="[문제풀이] : 백준_11724 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준_11724 문제풀이" />
+    <MESSAGE value="[개념] : BFS 공부 내용 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : BFS 공부 내용 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
