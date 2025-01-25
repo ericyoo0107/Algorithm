@@ -70,32 +70,24 @@ private static void DFS(int v) {
 
 ---
 1. 주로 큐를 사용
-```java
-static void bfs(int start, int[][] graph, boolean[] visited) {
-        // BFS에 사용할 큐를 생성해줍니다.
-        Queue<Integer> q = new LinkedList<Integer>();
+    ```java
+    private static void BFS(int Node) { // BFS 구현하기
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(Node);
+        visited[Node] = true;
 
-        // 큐에 BFS를 시작 할 노드 번호를 넣어줍니다.
-        q.offer(start);
-
-        // 시작노드 방문처리
-        visited[start] = true;
-
-        // 큐가 빌 때까지 반복
-        while(!q.isEmpty()) {
-            int nodeIndex = q.poll();
-            //큐에서 꺼낸 노드와 연결된 노드들 체크
-            for(int i = 0; i < graph[nodeIndex].length; i++) {
-            int temp = graph[nodeIndex][i];
-            // 방문하지 않았으면 방문처리 후 큐에 넣기
-            if(!visited[temp]) {
-                visited[temp] = true;
-                q.offer(temp);
+        while (!queue.isEmpty()) {
+            int now_Node = queue.poll();
+            System.out.print(now_Node + " ");
+                for (int i : A[now_Node]) {
+                    if (!visited[i]) {
+                    visited[i] = true;
+                    queue.add(i);
                 }
             }
         }
-}
-```
+    }
+    ```
 
 ### 구현
 

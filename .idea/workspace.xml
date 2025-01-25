@@ -93,6 +93,7 @@
       <workItem from="1737114890016" duration="597000" />
       <workItem from="1737125624913" duration="192000" />
       <workItem from="1737205004625" duration="724000" />
+      <workItem from="1737729913175" duration="1801000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -153,7 +154,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
