@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="">
+    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : BFS 공부 내용 변경">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/DFS_BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DFS_BFS.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,9 @@
       <workItem from="1737114890016" duration="597000" />
       <workItem from="1737125624913" duration="192000" />
       <workItem from="1737205004625" duration="724000" />
-      <workItem from="1737729913175" duration="1801000" />
+      <workItem from="1737729913175" duration="7067000" />
+      <workItem from="1737778120834" duration="7231000" />
+      <workItem from="1738817857996" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -143,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737014512523</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[개념] : BFS 공부 내용 변경">
+      <option name="closed" value="true" />
+      <created>1737732477081</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737732477081</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,7 +189,8 @@
     <MESSAGE value="[개념] : Java PS용 문법 공부 내용 추가" />
     <MESSAGE value="[문제풀이] : 백준_11724 문제풀이" />
     <MESSAGE value="[개념] : BFS 공부 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : BFS 공부 내용 추가" />
+    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : BFS 공부 내용 변경" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -203,7 +215,87 @@
           <line>29</line>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2178_미로탐색.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/a.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="result" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

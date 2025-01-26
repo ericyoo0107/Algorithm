@@ -25,14 +25,34 @@
 1. 재귀 함수로 구현 (코테에선 이걸 주로 사용)
 ```java
 private static void DFS(int v) {
-    if(visited[v]) return;
-    visited[v] = true;
+    visited[v] = true; // 현재 노드를 방문한 것으로 표시
+    System.out.print(v + " "); // 방문한 노드 출력
     for(int i : graph[v]){
         if(!visited[i]) DFS(i);
     }
 }
 ```
 2. 스택 자료구조 이용
+```java
+private static void dfs(int startNode) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(startNode);
+        visited[startNode] = true; // 시작 노드를 방문했다고 표시
+
+        while (!stack.isEmpty()) {
+        int node = stack.pop();
+        System.out.print(node + " "); // 방문한 노드 출력
+
+        // 인접 노드를 스택에 추가 (방문하지 않은 노드만 추가)
+        for (int neighbor : graph[node]) {
+        if (!visited[neighbor]) {
+        visited[neighbor] = true; // 인접 노드를 방문했다고 표시
+        stack.push(neighbor);
+        }
+      }
+   }
+}               
+```
 
 ### 구현
 
