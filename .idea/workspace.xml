@@ -95,7 +95,9 @@
       <workItem from="1737205004625" duration="724000" />
       <workItem from="1737729913175" duration="7067000" />
       <workItem from="1737778120834" duration="7231000" />
-      <workItem from="1738817857996" duration="14755000" />
+      <workItem from="1738817857996" duration="15181000" />
+      <workItem from="1738844877607" duration="42000" />
+      <workItem from="1739157925552" duration="3192000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -161,7 +163,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738821226678</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[문제풀이] : 백준_2178 문제풀이&#10;못 푼 이유 : 좌표를 다루는 방법에 아직 미숙함">
+      <option name="closed" value="true" />
+      <created>1738843796749</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738843796749</updated>
+    </task>
+    <task id="LOCAL-00010" summary="[개념] : BFS 문제 풀이 하면서 배운점 정리">
+      <option name="closed" value="true" />
+      <created>1738843988235</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738843988235</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,9 +214,11 @@
     <MESSAGE value="[개념] : Java PS용 문법 공부 내용 추가" />
     <MESSAGE value="[문제풀이] : 백준_11724 문제풀이" />
     <MESSAGE value="[개념] : BFS 공부 내용 추가" />
-    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
     <MESSAGE value="[개념] : DFS 스택 구현 방식 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : DFS 스택 구현 방식 추가" />
+    <MESSAGE value="[문제풀이] : 백준_2178 문제풀이&#10;못 푼 이유 : 좌표를 다루는 방법에 아직 미숙함" />
+    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
+    <MESSAGE value="[개념] : BFS 문제 풀이 하면서 배운점 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : BFS 문제 풀이 하면서 배운점 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
