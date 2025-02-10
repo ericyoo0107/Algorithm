@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : BFS 공부 내용 변경">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,21 +38,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.build",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\유준혁\Algorithm\docs\img" />
@@ -97,7 +100,9 @@
       <workItem from="1737778120834" duration="7231000" />
       <workItem from="1738817857996" duration="15181000" />
       <workItem from="1738844877607" duration="42000" />
-      <workItem from="1739157925552" duration="3192000" />
+      <workItem from="1739157925552" duration="3530000" />
+      <workItem from="1739162754868" duration="1078000" />
+      <workItem from="1741152796400" duration="8382000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -179,7 +184,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738843988235</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[문제풀이] : 백준_10451 문제풀이">
+      <option name="closed" value="true" />
+      <created>1739162447985</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1739162447985</updated>
+    </task>
+    <task id="LOCAL-00012" summary="[문제풀이] : 프로그래머스_가장 많이 받은 선물 문제풀이">
+      <option name="closed" value="true" />
+      <created>1741159733261</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1741159733261</updated>
+    </task>
+    <task id="LOCAL-00013" summary="[문제풀이] : 프로그래머스_개인정보 수집 유효기간 문제풀이">
+      <option name="closed" value="true" />
+      <created>1741174523986</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1741174523986</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,9 +245,12 @@
     <MESSAGE value="[개념] : BFS 공부 내용 추가" />
     <MESSAGE value="[개념] : DFS 스택 구현 방식 추가" />
     <MESSAGE value="[문제풀이] : 백준_2178 문제풀이&#10;못 푼 이유 : 좌표를 다루는 방법에 아직 미숙함" />
-    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
     <MESSAGE value="[개념] : BFS 문제 풀이 하면서 배운점 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : BFS 문제 풀이 하면서 배운점 정리" />
+    <MESSAGE value="[문제풀이] : 백준_10451 문제풀이" />
+    <MESSAGE value="[문제풀이] : 프로그래머스_가장 많이 받은 선물 문제풀이" />
+    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
+    <MESSAGE value="[문제풀이] : 프로그래머스_개인정보 수집 유효기간 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 프로그래머스_개인정보 수집 유효기간 문제풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -283,13 +315,28 @@
           <line>56</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/kakao_개인정보수집유효기간.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/kakao_개인정보수집유효기간.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/kakao_개인정보수집유효기간.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/programmers/kakao_개인정보수집유효기간.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="result" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algorithm$P2178_V2.ic" NAME="P2178_미로탐색V2 커버리지 결과" MODIFIED="1738829220450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
