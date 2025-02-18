@@ -2,8 +2,7 @@
 
 ## 문자열 
 
-### 문자열 입력
-- 콘솔 입력 시 사용
+- 콘솔로 문자열 입력
 ```java
 Scanner scanner = new Scanner(System.in);
 String str1 = scanner.next();
@@ -15,7 +14,10 @@ int i = scanner.nextInt();
 
 - 문자열 나누기
 ```java
-terms[i].split(" ")[0], terms[i].split(" ")[1]
+// String[] terms = {"A 6", "B 12", "C 3"};
+HashMap termMap = new HashMap<>();
+termMap.put(terms[i].split(" ")[0], terms[i].split(" ")[1]); 
+// -> A:6, B:12, C:3
 ```
 
 ## 배열
@@ -35,6 +37,14 @@ List<String> friendList = Arrays.stream(friends).toList();
 ```java
 int[] newAnswer = Arrays.copyOfRange(answer, 0, num);
 ```
+
+## 수학
+
+- 제곱 연산 하기 : `Math.pow()`
+```java
+A += Math.pow((target%10), P);
+```
+
 
 ### 궁금 한점
 
