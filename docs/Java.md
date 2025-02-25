@@ -20,6 +20,12 @@ termMap.put(terms[i].split(" ")[0], terms[i].split(" ")[1]);
 // -> A:6, B:12, C:3
 ```
 
+- char 에서 int 로 변경
+```java
+int num = Character.getNumericValue(line.charAt(j));
+```
+
+
 ## 배열
 
 - 특정 값으로 배열 채울수 있음
