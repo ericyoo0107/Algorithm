@@ -123,5 +123,5 @@ private static void dfs(int startNode) {
 
 ### 문제 유형
 
-1. 좌표 형식 (ex. 백준 유기농 배추)
+1. 좌표 형식 (ex. 백준 유기농 배추, 단지 번호 붙이기)
 2. 그래프 형식 

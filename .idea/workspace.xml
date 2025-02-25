@@ -106,7 +106,9 @@
       <workItem from="1739162754868" duration="1078000" />
       <workItem from="1741152796400" duration="9416000" />
       <workItem from="1741240584311" duration="15259000" />
-      <workItem from="1741333608239" duration="8321000" />
+      <workItem from="1741333608239" duration="8561000" />
+      <workItem from="1741357718273" duration="30000" />
+      <workItem from="1741421614274" duration="5372000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -260,7 +262,23 @@
       <option name="project" value="LOCAL" />
       <updated>1741338916417</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="[문제풀이] : 백준_1012 문제풀이">
+      <option name="closed" value="true" />
+      <created>1741345974589</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741345974589</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[개념] : 깨우침 추가">
+      <option name="closed" value="true" />
+      <created>1741346047444</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741346047444</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,9 +352,11 @@
     <MESSAGE value="[개념] : 자바 문법 정리" />
     <MESSAGE value="[문제풀이] : 백준_2331 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_1679 문제풀이" />
-    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
     <MESSAGE value="[개념] : DFS, BFS 인사이트 내용 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : DFS, BFS 인사이트 내용 추가" />
+    <MESSAGE value="[문제풀이] : 백준_1012 문제풀이" />
+    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
+    <MESSAGE value="[개념] : 깨우침 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 깨우침 추가" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -478,6 +498,22 @@
           <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P1679_숨바꼭질.java</url>
           <line>44</line>
           <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2667_단지번호붙이기.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2667_단지번호붙이기.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2667_단지번호붙이기.java</url>
+          <line>11</line>
+          <properties field="houseCount" class="baekjoon.dfs_bfs.P2667_단지번호붙이기" />
+          <option name="timeStamp" value="67" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
