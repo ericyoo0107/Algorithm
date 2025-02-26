@@ -28,6 +28,12 @@ int num = Character.getNumericValue(line.charAt(j));
 
 ## 배열
 
+- 2차원 ArrayList 만들기
+```java
+// dfs, bfs 인접 리스트 만들때 사용 가능
+ArrayList<ArrayList<Integer>> a = new ArrayList<>();
+```
+
 - 특정 값으로 배열 채울수 있음
 ```java
 int[] arr = new int[10];
