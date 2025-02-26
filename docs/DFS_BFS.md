@@ -40,14 +40,14 @@ private static void dfs(int startNode) {
         visited[startNode] = true; // 시작 노드를 방문했다고 표시
 
         while (!stack.isEmpty()) {
-        int node = stack.pop();
-        System.out.print(node + " "); // 방문한 노드 출력
-
-        // 인접 노드를 스택에 추가 (방문하지 않은 노드만 추가)
-        for (int neighbor : graph[node]) {
-        if (!visited[neighbor]) {
-        visited[neighbor] = true; // 인접 노드를 방문했다고 표시
-        stack.push(neighbor);
+           int node = stack.pop();
+           System.out.print(node + " "); // 방문한 노드 출력
+   
+           // 인접 노드를 스택에 추가 (방문하지 않은 노드만 추가)
+           for (int neighbor : graph[node]) {
+           if (!visited[neighbor]) {
+              visited[neighbor] = true; // 인접 노드를 방문했다고 표시
+              stack.push(neighbor);
         }
       }
    }

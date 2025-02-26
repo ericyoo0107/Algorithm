@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : BFS 공부 내용 변경">
-      <change beforePath="$PROJECT_DIR$/docs/Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java.md" afterDir="false" />
+    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : 자바 문법 정리">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/DFS_BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DFS_BFS.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +108,7 @@
       <workItem from="1741240584311" duration="15259000" />
       <workItem from="1741333608239" duration="8561000" />
       <workItem from="1741357718273" duration="30000" />
-      <workItem from="1741421614274" duration="5936000" />
+      <workItem from="1741421614274" duration="15804000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -285,7 +286,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741428758634</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[개념] : 자바 문법 정리">
+      <option name="closed" value="true" />
+      <created>1741429272201</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1741429272201</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,15 +365,15 @@
     <MESSAGE value="[문제풀이] : 백준_10451 문제풀이" />
     <MESSAGE value="[문제풀이] : 프로그래머스_가장 많이 받은 선물 문제풀이" />
     <MESSAGE value="[문제풀이] : 프로그래머스_개인정보 수집 유효기간 문제풀이" />
-    <MESSAGE value="[개념] : 자바 문법 정리" />
     <MESSAGE value="[문제풀이] : 백준_2331 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_1679 문제풀이" />
     <MESSAGE value="[개념] : DFS, BFS 인사이트 내용 추가" />
     <MESSAGE value="[문제풀이] : 백준_1012 문제풀이" />
     <MESSAGE value="[개념] : 깨우침 추가" />
-    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
     <MESSAGE value="[문제풀이] : 백준_2667 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준_2667 문제풀이" />
+    <MESSAGE value="[개념] : BFS 공부 내용 변경" />
+    <MESSAGE value="[개념] : 자바 문법 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 자바 문법 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
