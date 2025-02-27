@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : 자바 문법 정리">
-      <change beforePath="$PROJECT_DIR$/docs/DFS_BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DFS_BFS.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +108,8 @@
       <workItem from="1741333608239" duration="8561000" />
       <workItem from="1741357718273" duration="30000" />
       <workItem from="1741421614274" duration="16545000" />
+      <workItem from="1741512083864" duration="54000" />
+      <workItem from="1741582835827" duration="8291000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -302,7 +303,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741511390283</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="[개념] : 자바 문법 정리">
+      <option name="closed" value="true" />
+      <created>1741512104639</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1741512104639</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,9 +389,9 @@
     <MESSAGE value="[개념] : 깨우침 추가" />
     <MESSAGE value="[문제풀이] : 백준_2667 문제풀이" />
     <MESSAGE value="[개념] : BFS 공부 내용 변경" />
-    <MESSAGE value="[개념] : 자바 문법 정리" />
     <MESSAGE value="[문제풀이] : 백준_2644 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준_2644 문제풀이" />
+    <MESSAGE value="[개념] : 자바 문법 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 자바 문법 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -534,6 +543,16 @@
           <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2667_단지번호붙이기.java</url>
           <line>45</line>
           <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P7576_토마토.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P7576_토마토.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/baekjoon/dfs_bfs/P2667_단지번호붙이기.java</url>
