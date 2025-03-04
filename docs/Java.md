@@ -2,6 +2,8 @@
 
 ## 문자열 
 
+---
+
 - 콘솔로 문자열 입력
 ```java
 Scanner scanner = new Scanner(System.in);
@@ -28,6 +30,8 @@ int num = Character.getNumericValue(line.charAt(j));
 
 ## 배열
 
+---
+
 - 2차원 ArrayList 만들기
 ```java
 // dfs, bfs 인접 리스트 만들때 사용 가능
@@ -52,10 +56,18 @@ int[] newAnswer = Arrays.copyOfRange(answer, 0, num);
 
 ## 수학
 
+---
+
 - 제곱 연산 하기 : `Math.pow()`
 ```java
 A += Math.pow((target%10), P);
 ```
+
+## Map
+
+---
+
+- Map에서 특정 키의 값이 존재할 경우 Value 수정할 때 : 그냥 put() 하면 알아서 Value 값 수정
 
 
 ### 궁금 한점

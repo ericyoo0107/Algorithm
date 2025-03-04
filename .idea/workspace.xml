@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : 자바 문법 정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Java.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Java.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +110,11 @@
       <workItem from="1741357718273" duration="30000" />
       <workItem from="1741421614274" duration="16545000" />
       <workItem from="1741512083864" duration="54000" />
-      <workItem from="1741582835827" duration="8291000" />
+      <workItem from="1741582835827" duration="8396000" />
+      <workItem from="1741782671590" duration="598000" />
+      <workItem from="1742104721348" duration="4114000" />
+      <workItem from="1742148113531" duration="7000" />
+      <workItem from="1742455019227" duration="7964000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -311,7 +316,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741512104639</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[문제풀이] : 백준_7576 문제풀이">
+      <option name="closed" value="true" />
+      <created>1741591925030</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1741591925030</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[문제풀이] : 프로그래머스 두 큐 합 같게 만들기 문제풀이">
+      <option name="closed" value="true" />
+      <created>1742458629759</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1742458629759</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[문제풀이] : 프로그래머스 성격유형검사하기 문제풀이">
+      <option name="closed" value="true" />
+      <created>1742468501022</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1742468501022</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,8 +419,11 @@
     <MESSAGE value="[문제풀이] : 백준_2667 문제풀이" />
     <MESSAGE value="[개념] : BFS 공부 내용 변경" />
     <MESSAGE value="[문제풀이] : 백준_2644 문제풀이" />
+    <MESSAGE value="[문제풀이] : 백준_7576 문제풀이" />
+    <MESSAGE value="[문제풀이] : 프로그래머스 두 큐 합 같게 만들기 문제풀이" />
     <MESSAGE value="[개념] : 자바 문법 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 자바 문법 정리" />
+    <MESSAGE value="[문제풀이] : 프로그래머스 성격유형검사하기 문제풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 프로그래머스 성격유형검사하기 문제풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
