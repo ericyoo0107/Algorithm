@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : 자바 문법 정리">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,7 @@
       <workItem from="1742455019227" duration="8873000" />
       <workItem from="1742566745089" duration="4256000" />
       <workItem from="1743500315469" duration="1231000" />
-      <workItem from="1743582570361" duration="14746000" />
+      <workItem from="1743582570361" duration="17221000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <option name="closed" value="true" />
@@ -375,7 +374,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743663065731</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[개념] : 파이썬 문법 정리">
+      <option name="closed" value="true" />
+      <created>1743681077881</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1743681077881</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -458,9 +465,9 @@
     <MESSAGE value="[문제풀이] : 프로그래머스 두 큐 합 같게 만들기 문제풀이" />
     <MESSAGE value="[문제풀이] : 프로그래머스 성격유형검사하기 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_2583 문제풀이" />
-    <MESSAGE value="[개념] : 자바 문법 정리" />
     <MESSAGE value="[개념] : 파이썬 문법 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 파이썬 문법 정리" />
+    <MESSAGE value="[개념] : 자바 문법 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 자바 문법 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
