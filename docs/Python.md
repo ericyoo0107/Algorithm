@@ -138,3 +138,14 @@ print(a)
   a, b, c = func()
   print(a, b, c) # 1 2 3
   ```
+
+
+## 쓸만한 내장 함수
+
+---
+
+- eval() : 문자열을 실제 코드처럼 실행해 준다
+  ```python
+  a = eval("1 + 2")
+  print(a) # 3
+  ```
