@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[문제풀이] : 백준_1541 문제풀이">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[문제풀이] : 삼성_2021_상반기_오전_1번">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.2021상_놀이기구탑승.executor": "Run",
+    "Python.2024상_고대문명유적탐사.executor": "Run",
     "Python.P11399_ATM.executor": "Run",
     "Python.P1541_잃어버린괄호.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -405,7 +406,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743697403514</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="[문제풀이] : 삼성_2021_상반기_오전_1번">
+      <option name="closed" value="true" />
+      <created>1744036561503</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1744036561503</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -465,7 +474,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[개념] : Java PS용 문법 공부 내용 추가" />
     <MESSAGE value="[문제풀이] : 백준_11724 문제풀이" />
     <MESSAGE value="[개념] : BFS 공부 내용 추가" />
     <MESSAGE value="[개념] : DFS 스택 구현 방식 추가" />
@@ -490,7 +498,8 @@
     <MESSAGE value="[개념] : 자바 문법 정리" />
     <MESSAGE value="[문제풀이] : 백준_11399 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_1541 문제풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준_1541 문제풀이" />
+    <MESSAGE value="[문제풀이] : 삼성_2021_상반기_오전_1번" />
+    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 삼성_2021_상반기_오전_1번" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -574,6 +583,16 @@
           <url>file://$PROJECT_DIR$/src/codetree/2021상_놀이기구탑승.py</url>
           <line>115</line>
           <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/codetree/2024상_고대문명유적탐사.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/codetree/2024상_고대문명유적탐사.py</url>
+          <line>162</line>
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

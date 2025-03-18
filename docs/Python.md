@@ -35,9 +35,6 @@ print(a)
 - `list.pop(i)` : 리스트 i번째 요소 삭제
 - `list.remove(x)` : 리스트에서 x값 삭제
 
-
-
-
 ### 리스트 컴프리헨션
 - 리스트 안에 if, for문 넣어서 리스트 초기화 가능
     ```python
@@ -49,6 +46,15 @@ print(a)
     a = [[0] * M for _ in range(N)]
     print(a) # [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     ```
+
+### 깊은 복사 할때 = 아얘 새로운 리스트를 만들어야 할때
+  ```python
+    import copy
+
+    list = []
+    temp = copy.deepcopy(list)
+  ```
+
   
 ## 문자열
 
@@ -149,3 +155,5 @@ print(a)
   a = eval("1 + 2")
   print(a) # 3
   ```
+
+- sort()
