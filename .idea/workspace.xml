@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[문제풀이] : 삼성_2021_상반기_오전_1번">
+    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : 파이썬 문법 정리">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-07__11_37___.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2025-04-07_오후_11_37_[변경]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python.md" afterDir="false" />
     </list>
@@ -37,29 +39,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.2021상_놀이기구탑승.executor": "Run",
-    "Python.2024상_고대문명유적탐사.executor": "Run",
-    "Python.P11399_ATM.executor": "Run",
-    "Python.P1541_잃어버린괄호.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "configurable.group.build",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.2021상_놀이기구탑승.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2024상_고대문명유적탐사.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2024상_마법의숲탐색.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.P11399_ATM.executor&quot;: &quot;Run&quot;,
+    &quot;Python.P1541_잃어버린괄호.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.test1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\유준혁\PycharmProjects\Algorithm\src\codetree" />
+      <recent name="C:\Users\유준혁\PycharmProjects\Algorithm\src" />
       <recent name="C:\Users\유준혁\Algorithm\docs\img" />
       <recent name="C:\Users\유준혁\Algorithm\docs\DFS3" />
     </key>
@@ -414,7 +421,23 @@
       <option name="project" value="LOCAL" />
       <updated>1744036561503</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="[문제풀이] : 삼성_2024_상반기_오전_1번">
+      <option name="closed" value="true" />
+      <created>1744192461130</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1744192461130</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[개념] : 파이썬 문법 정리">
+      <option name="closed" value="true" />
+      <created>1744192505566</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1744192505566</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[문제풀이] : 백준_11724 문제풀이" />
     <MESSAGE value="[개념] : BFS 공부 내용 추가" />
     <MESSAGE value="[개념] : DFS 스택 구현 방식 추가" />
     <MESSAGE value="[문제풀이] : 백준_2178 문제풀이&#10;못 푼 이유 : 좌표를 다루는 방법에 아직 미숙함" />
@@ -494,12 +516,13 @@
     <MESSAGE value="[문제풀이] : 프로그래머스 두 큐 합 같게 만들기 문제풀이" />
     <MESSAGE value="[문제풀이] : 프로그래머스 성격유형검사하기 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_2583 문제풀이" />
-    <MESSAGE value="[개념] : 파이썬 문법 정리" />
     <MESSAGE value="[개념] : 자바 문법 정리" />
     <MESSAGE value="[문제풀이] : 백준_11399 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_1541 문제풀이" />
     <MESSAGE value="[문제풀이] : 삼성_2021_상반기_오전_1번" />
-    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 삼성_2021_상반기_오전_1번" />
+    <MESSAGE value="[문제풀이] : 삼성_2024_상반기_오전_1번" />
+    <MESSAGE value="[개념] : 파이썬 문법 정리" />
+    <option name="LAST_COMMIT_MESSAGE" value="[개념] : 파이썬 문법 정리" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -593,6 +616,21 @@
           <url>file://$PROJECT_DIR$/src/codetree/2024상_고대문명유적탐사.py</url>
           <line>162</line>
           <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/codetree/test.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/codetree/2024상_마법의숲탐색.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/codetree/2024상_마법의숲탐색.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="87" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -47,7 +47,8 @@ print(a)
     print(a) # [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
     ```
 
-### 깊은 복사 할때 = 아얘 새로운 리스트를 만들어야 할때
+### 깊은 복사 할때 
+- 아얘 새로운 리스트를 만들어야 할때
   ```python
     import copy
 
@@ -70,13 +71,6 @@ print(a)
 
 - 문자열은 특정 인덱스 변경 불가능
 
-
-## 튜플
-
----
-
-- 최단 경로 알고리즘(다익스트라)에서 (비용, 노드번호)로 묶어서 튜플 사용한다 
-
 ## 사전 자료형 (Dictionary)
 
 ---
@@ -87,23 +81,27 @@ print(a)
     print(a['A']) # 1
     ```
 
-## 집합 (Set)
+### 내장 함수
 
----
-
-- 집합 자료형은 중복을 허용하지 않는다.
+- dict.keys() : 키만 가져오기
   ```python
-  data = set([1, 1, 2, 2, 3, 4, 5])
-  print(data) # {1, 2, 3, 4, 5}
+    dict = {"apple": 3, "banana": 5, "cherry": 2}
+    for key in dict.keys():
+        print(key) # apple, banana, cherry
   ```
-- 합집합, 교집합, 차집합을 지원한다.
+
+- dict.values() : 값만 가져오기
   ```python
-  a = {1, 2, 3}
-  b = {3, 4, 5}
+    dict = {"apple": 3, "banana": 5, "cherry": 2}
+    for value in dict.values():
+        print(value) # 3,5,2
+  ```
   
-  c = a & b # 교집합
-  c = a | b # 합집합
-  c = a - b # 차집합
+- dict.items() : 값만 가져오기
+  ```python
+    dict = {"apple": 3, "banana": 5, "cherry": 2}
+    for value in dict.items():
+        print(value) # ('apple', 3), ('banana', 5), ('cherry', 2)
   ```
 
 ## 입출력
@@ -145,7 +143,6 @@ print(a)
   print(a, b, c) # 1 2 3
   ```
 
-
 ## 쓸만한 내장 함수
 
 ---
@@ -156,4 +153,39 @@ print(a)
   print(a) # 3
   ```
 
+- maxPos2에서 가장 작은 row 고르기
+  ```python
+  minRow = min(row for column, row in maxPos2)
+  ```
+  
+- friendCount 2차원 배열에서 가장 큰 row 고르기
+  ```python
+  maxValue = max(max(row) for row in friendCount)
+  ```
 - sort()
+
+## 튜플
+
+---
+
+- 최단 경로 알고리즘(다익스트라)에서 (비용, 노드번호)로 묶어서 튜플 사용한다 
+
+
+## 집합 (Set)
+
+---
+
+- 집합 자료형은 중복을 허용하지 않는다.
+  ```python
+  data = set([1, 1, 2, 2, 3, 4, 5])
+  print(data) # {1, 2, 3, 4, 5}
+  ```
+- 합집합, 교집합, 차집합을 지원한다.
+  ```python
+  a = {1, 2, 3}
+  b = {3, 4, 5}
+  
+  c = a & b # 교집합
+  c = a | b # 합집합
+  c = a - b # 차집합
+  ```
