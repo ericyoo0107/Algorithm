@@ -1,23 +1,25 @@
 # 파이썬
 
-
-## 수 (Count)
+## 입출력
 
 ---
 
-### 소숫점 표현
-```python
-a = 0.3 + 0.6
-print(a)
-```
-- 결과 : 0.89999
-- 해결 방법 : round(a, 1) 로 반올림
+### 입력
 
-### 나누기 연산자
-- 파이썬에선 나눠진 결과를 실수로 반환
-- ex) 10/3 = 3.333
-- 해결 방법 : //를 이용해서 몫만 반환
-- ex) 10//3 = 3
+- `input()` : 입력받기
+- `map()` : 리스트의 각 요소에 함수를 적용
+- `list(map(int, input().split()))` : 공백으로 구분된 정수 입력받고 리스트로 변환
+- `a, b = map(int, input().split())` : 공백으로 구분된 정수 입력받고 a, b에 각각 저장
+- `sys.stdin.readline()` : 입력받기 (속도 빠름), 이진탐색, 정렬, 그래프 관련 문제에서 자주 사용함
+- `grid = [list(map(int, input().strip())) for _ in range(N)]`
+  - 2차원 배열을 간히 입력 받을수 있음 
+
+### 출력
+
+- `print()` : 출력하기
+- `print(a, b)` : a, b를 공백으로 구분하여 출력
+- `print(a, end=' ')` : a를 출력하고 줄바꿈 하지 않음
+
 
 ## 리스트
 
@@ -56,7 +58,48 @@ print(a)
     temp = copy.deepcopy(list)
   ```
 
+
+## 수 (Count)
+
+---
+
+### 소숫점 표현
+```python
+a = 0.3 + 0.6
+print(a)
+```
+- 결과 : 0.89999
+- 해결 방법 : round(a, 1) 로 반올림
+
+### 나누기 연산자
+- 파이썬에선 나눠진 결과를 실수로 반환
+- ex) 10/3 = 3.333
+- 해결 방법 : //를 이용해서 몫만 반환
+- ex) 10//3 = 3
   
+
+## 쓸만한 내장 함수
+
+---
+
+- eval() : 문자열을 실제 코드처럼 실행해 준다
+  ```python
+  a = eval("1 + 2")
+  print(a) # 3
+  ```
+
+- maxPos2에서 가장 작은 row 고르기
+  ```python
+  minRow = min(row for column, row in maxPos2)
+  ```
+  
+- friendCount 2차원 배열에서 가장 큰 row 고르기
+  ```python
+  maxValue = max(max(row) for row in friendCount)
+  ```
+- sort()
+
+
 ## 문자열
 
 ---
@@ -104,24 +147,6 @@ print(a)
         print(value) # ('apple', 3), ('banana', 5), ('cherry', 2)
   ```
 
-## 입출력
-
----
-
-### 입력
-
-- `input()` : 입력받기
-- `map()` : 리스트의 각 요소에 함수를 적용
-- list(map(int, input().split())) : 공백으로 구분된 정수 입력받고 리스트로 변환
-- a, b = map(int, input().split()) : 공백으로 구분된 정수 입력받고 a, b에 각각 저장
-- `sys.stdin.readline()` : 입력받기 (속도 빠름), 이진탐색, 정렬, 그래프 관련 문제에서 자주 사용함
-
-### 출력
-
-- `print()` : 출력하기
-- `print(a, b)` : a, b를 공백으로 구분하여 출력
-- `print(a, end=' ')` : a를 출력하고 줄바꿈 하지 않음
-  
 
 ## 함수
 
@@ -143,26 +168,6 @@ print(a)
   print(a, b, c) # 1 2 3
   ```
 
-## 쓸만한 내장 함수
-
----
-
-- eval() : 문자열을 실제 코드처럼 실행해 준다
-  ```python
-  a = eval("1 + 2")
-  print(a) # 3
-  ```
-
-- maxPos2에서 가장 작은 row 고르기
-  ```python
-  minRow = min(row for column, row in maxPos2)
-  ```
-  
-- friendCount 2차원 배열에서 가장 큰 row 고르기
-  ```python
-  maxValue = max(max(row) for row in friendCount)
-  ```
-- sort()
 
 ## 튜플
 
