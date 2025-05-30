@@ -20,3 +20,4 @@
    Queue<int[]> queue = new LinkedList<>(); // 위치, depth 저장
    queue.add(new int[]{node, 0});
    ```
+6. 시간 복잡도를 줄이려면 for문을 돌면서 BFS를 호출 하지 말고 큐를 전역변수에 놓고 값을 넣은 다음 한번에 BFS를 돌려서 해결 (Ex.7569_토마토)

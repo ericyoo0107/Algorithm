@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[문제풀이] : 백준 1931 풀이">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[문제풀이] : 백준_1074 풀이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/DFS_BFS.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/DFS_BFS.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,23 +172,7 @@
       <workItem from="1751017193148" duration="8769000" />
       <workItem from="1751105942421" duration="6748000" />
       <workItem from="1751298665105" duration="3677000" />
-      <workItem from="1751354603586" duration="18994000" />
-    </task>
-    <task id="LOCAL-00036" summary="[문제풀이] : 삼성_2021_상반기_오전_1번">
-      <option name="closed" value="true" />
-      <created>1744036561503</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1744036561503</updated>
-    </task>
-    <task id="LOCAL-00037" summary="[문제풀이] : 삼성_2024_상반기_오전_1번">
-      <option name="closed" value="true" />
-      <created>1744192461130</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1744192461130</updated>
+      <workItem from="1751354603586" duration="21463000" />
     </task>
     <task id="LOCAL-00038" summary="[개념] : 파이썬 문법 정리">
       <option name="closed" value="true" />
@@ -567,7 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1751029368912</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="[개념] : 재귀 알고리즘 공부">
+      <option name="closed" value="true" />
+      <created>1751388320081</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1751388320081</updated>
+    </task>
+    <task id="LOCAL-00086" summary="[문제풀이] : 백준_1074 풀이">
+      <option name="closed" value="true" />
+      <created>1751388411706</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1751388411706</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,8 +596,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[문제풀이] : 백준_11052 문제풀이" />
-    <MESSAGE value="[문제풀이] : 백준_14051 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_11057 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_11055 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_10026 문제풀이" />
@@ -622,7 +619,9 @@
     <MESSAGE value="[개념] : 순열 조합 알고리즘 공부" />
     <MESSAGE value="[문제풀이] : 프로그래머스 피로도 풀이" />
     <MESSAGE value="[문제풀이] : 백준 1931 풀이" />
-    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준 1931 풀이" />
+    <MESSAGE value="[개념] : 재귀 알고리즘 공부" />
+    <MESSAGE value="[문제풀이] : 백준_1074 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준_1074 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
