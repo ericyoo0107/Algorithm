@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[개념] : DFS_BFS 추가 개념 정리">
+    <list default="true" id="4c8a0a50-50f2-430c-9a2d-d25fc9eccfa6" name="변경" comment="[문제풀이] : 백준_4179 풀이">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/Python.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Python.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +58,10 @@
     "Python.P1010_다리놓기.executor": "Run",
     "Python.P1074_재귀.executor": "Run",
     "Python.P11047_동전0.executor": "Run",
+    "Python.P1111_메일주소.executor": "Run",
     "Python.P11399_ATM.executor": "Run",
     "Python.P11729_하노이.executor": "Run",
+    "Python.P1182_부분수열의합.executor": "Run",
     "Python.P1541_잃어버린괄호.executor": "Run",
     "Python.P1629_곱셈.executor": "Run",
     "Python.P1722_순열의순서.executor": "Run",
@@ -175,15 +178,8 @@
       <workItem from="1751298665105" duration="3677000" />
       <workItem from="1751354603586" duration="21463000" />
       <workItem from="1751448915420" duration="8820000" />
-      <workItem from="1751531262595" duration="7339000" />
-    </task>
-    <task id="LOCAL-00040" summary="[문제풀이] : 백준_1003 문제풀이">
-      <option name="closed" value="true" />
-      <created>1745425924488</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1745425924488</updated>
+      <workItem from="1751531262595" duration="7666000" />
+      <workItem from="1751608244496" duration="6497000" />
     </task>
     <task id="LOCAL-00041" summary="[문제풀이] : 백준_1149 문제풀이">
       <option name="closed" value="true" />
@@ -569,7 +565,15 @@
       <option name="project" value="LOCAL" />
       <updated>1751457617140</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="[문제풀이] : 백준_4179 풀이">
+      <option name="closed" value="true" />
+      <created>1751568442016</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1751568442017</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -599,7 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="[문제풀이] : 백준_10026 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_12865 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_1010 문제풀이" />
     <MESSAGE value="[문제풀이] : 백준_2748 문제풀이" />
@@ -624,7 +627,8 @@
     <MESSAGE value="[문제풀이] : 백준_1074 풀이" />
     <MESSAGE value="[문제풀이] : 백준_7569 풀이" />
     <MESSAGE value="[개념] : DFS_BFS 추가 개념 정리" />
-    <option name="LAST_COMMIT_MESSAGE" value="[개념] : DFS_BFS 추가 개념 정리" />
+    <MESSAGE value="[문제풀이] : 백준_4179 풀이" />
+    <option name="LAST_COMMIT_MESSAGE" value="[문제풀이] : 백준_4179 풀이" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -903,6 +907,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algorithm$P1111_.coverage" NAME="P1111_메일주소 커버리지 결과" MODIFIED="1751614876592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/구현" />
     <SUITE FILE_PATH="coverage/Algorithm$P7569_.coverage" NAME="P7569_토마토 커버리지 결과" MODIFIED="1751457252307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/dfs_bfs" />
     <SUITE FILE_PATH="coverage/Algorithm$P1722_.coverage" NAME="P1722_순열의순서 커버리지 결과" MODIFIED="1751113817047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/순열_조합" />
     <SUITE FILE_PATH="coverage/Algorithm$test.coverage" NAME="test 커버리지 결과" MODIFIED="1751456515235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
@@ -916,6 +921,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$P1931_.coverage" NAME="P1931_회의실배정 커버리지 결과" MODIFIED="1751029097683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/greedy" />
     <SUITE FILE_PATH="coverage/Algorithm$P1074_.coverage" NAME="P1074_재귀 커버리지 결과" MODIFIED="1751382304117" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/재귀" />
     <SUITE FILE_PATH="coverage/Algorithm$P1629_.coverage" NAME="P1629_곱셈 커버리지 결과" MODIFIED="1751369875101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/재귀" />
+    <SUITE FILE_PATH="coverage/Algorithm$P1182_.coverage" NAME="P1182_부분수열의합 커버리지 결과" MODIFIED="1751610660763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/순열_조합" />
     <SUITE FILE_PATH="coverage/Algorithm$P11729_.coverage" NAME="P11729_하노이 커버리지 결과" MODIFIED="1751368547235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/재귀" />
     <SUITE FILE_PATH="coverage/Algorithm$P1010_.coverage" NAME="P1010_다리놓기 커버리지 결과" MODIFIED="1751109633196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/순열_조합" />
     <SUITE FILE_PATH="coverage/Algorithm$P1987_.coverage" NAME="P1987_알파벳 커버리지 결과" MODIFIED="1750770926070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/baekjoon/dfs_bfs" />

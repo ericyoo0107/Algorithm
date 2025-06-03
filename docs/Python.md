@@ -12,7 +12,7 @@
 - `a, b = map(int, input().split())` : 공백으로 구분된 정수 입력받고 a, b에 각각 저장
 - `sys.stdin.readline()` : 입력받기 (속도 빠름), 이진탐색, 정렬, 그래프 관련 문제에서 자주 사용함
 - `grid = [list(map(int, input().strip())) for _ in range(N)]`
-  - 2차원 배열을 간히 입력 받을수 있음 
+  - 2차원 배열을 간단히 입력 받을수 있음 
 
 ### 출력
 
